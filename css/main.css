@@ -85,6 +85,14 @@ h2:after, h3:after {
     border: none;
     min-height: 90px;
     padding-top: 20px;
+    transition: 1s all ease;
+}
+
+.effect {
+    background-color: #123156;
+    min-height: 30px;
+    box-shadow: 0 0 10px black;
+    padding-top: 0;
 }
 
 .nav > li > a {
@@ -123,6 +131,24 @@ section#slider img {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     margin: 0 auto;
+}
+
+.blue-circle div {
+    float: left;
+    width: 100%;
+    padding-top: 45%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.blue-circle div i {
+    font-size: 3em;
+}
+
+#features .blue-circle div i {
+    font-size: 2em;
 }
 
 #about .blue-circle {
@@ -180,7 +206,7 @@ section#downloads div.phone {
 
 section#downloads div.phone img {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 section#downloads .downloads-empty {
@@ -210,6 +236,77 @@ section#downloads .platforms > div {
     position: relative;
     padding-left: 50px;
     color: #0C243D;
+}
+
+section#downloads .platforms i {
+    font-size: 2.5em;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+section#support {
+    padding-bottom: 0;
+    background-color: #1a3d61;
+}
+
+section#support h2 {
+    color:#ffffff;
+}
+
+section#support h2:after {
+    background-color: #ffffff;
+}
+
+section#support p {
+    font-size: 1.6em;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+section#support input,
+section#support textarea {
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color: #1a3d61;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+section#support textarea {
+    min-height: 200px;
+}
+
+section#support input.btn {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 50px;
+    font-size: 1.4em;
+    color: #1a3d61;
+}
+
+:moz-placeholder {
+    color: #ffffff!important;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff!important;
+}
+
+::moz-placeholder {
+    color: #ffffff!important;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff!important;
+}
+
+footer p {
+    background-color: #102745;
+    padding: 10px 0;
+    color: #ffffff;
+    margin-bottom: 0;
 }
 /* ==========================================================================
    Media Queries
